@@ -11,16 +11,6 @@ Este repositório reúne meus projetos acadêmicos e pessoais desenvolvidos dura
 - `Fundamentos de Engenharia/`: Esta pasta contém o trabalho de sistematização apresentado como requisito parcial para a conclusão do curso de **Engenharia de Software** no **Centro Universitário de Brasília (CEUB)**. O estudo utilizou a simulação "Densidade", da plataforma **PHET**, para investigar o comportamento de objetos em meio líquido com base em sua massa, volume e densidade.
   
 ---
-## Competências
-
-- Inglês Intermediário
-- Pacote Office / Google Docs
-- Pensamento Lógico e Analítico
-- Boa comunicação e trabalho em equipe
-- Capacidade de Resolução de problemas
-- Organização e Responsabilidade
----
-
 
 ## 🔧 Tecnologias Utilizadas
 
