@@ -30,7 +30,8 @@ Este repositório reúne meus projetos acadêmicos e pessoais desenvolvidos dura
 ## 🔗 Integrações
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yan-fellipe-a5a100360/)
-[![Vídeo de apresentação](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)]()
+[![Vídeo de apresentação](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/iXWDd2F5GxQ)
+
 ---
 
 ## 📌 Observações
