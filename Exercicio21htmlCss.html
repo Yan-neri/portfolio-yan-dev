@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Exemplo 21 CSS - Sistema de Vendas</title>
+<style>
+    .caixa{
+        font-weight: bold;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; 
+        margin-top: 50px !important;
+    }
+
+</style>
+</head>
+<body>
+<div class="container-sm">
+    <h1>Exemplo 21 CSS - Sistema de Vendas</h1>
+    <div class="card caixa">
+        <div class="card-header bg-dark text-white">
+            Cadastro de Funcionário
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="">Nome</label>
+                <input type="text" name="txtNome" id="txtNome" class="form-control">
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <label for="">CPF</label>
+                    <input type="text" name="txtCPF" id="txtCPF" class="form-control">
+                </div>
+                <div class="col-6">
+                    <label for="">E-mail</label>
+                    <input type="email" name="txtEmail" id="txtEmail" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label for="">Cargo</label>
+                    <input type="text" name="txtCargo" id="txtCargo" class="form-control">
+                </div>
+                <div class="col-4">
+                    <label for="">Salário</label>
+                    <input type="text" name="txtSalario" id="txtSalario" class="form-control">
+                </div>
+                <div class="col-4">
+                    <label for="">Data de Admissão</label>
+                    <input type="date" name="txtDataAdmissao" id="txtDataAdmissao" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn-dark form-control" >Salvar</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-dark form-control">Pesquisar</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-dark form-control">Excluir</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-dark form-control">Sair</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

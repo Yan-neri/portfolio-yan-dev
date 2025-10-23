@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 13 HTML</title>
+</head>
+
+<body>
+    <h1>Exemplo 13 html - Formulários</h1>
+    <form action="paginaDestino.asmx" method="get"></form>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div>
+            <label for="">CPF</label> <br>
+            <input type="text" name="txtCPF" id="txtCPF" required autofocus> <br>
+        </div>
+        <br>
+            <div>
+                <label for="">RG</label> <br>
+                <input type="text" name="txtRG" id="txtRG" required autofocus> <br>
+            </div>
+            <br>
+            <div>
+                <label for="">Nome</label> <br>
+                <input type="text" name="txtNome" id="txtNome" required autofocus> <br>
+            </div>
+            <br>
+        </div>
+        <br>
+        <div>
+            <label for="">Data de Nascimento</label> <br>
+            <input type="date" name="dtDataNascimento" id="dtDataNascimento"> 
+        </div>
+        <br>
+        <div>
+            <label for="">Sexo</label> <br>
+            <input type="radio" name="rdSexo" id="rdSexo" value="1">Feminino
+            <input type="radio" name="rdSexo" id="rdSexo" value="2">Masculino
+        </div>
+        <div>
+            <label for="">Estado Civil</label> <br>
+                <select name="cboEstadoCivil" id="cboEstadoCivil">
+                    <option value="1">Casado</option>
+                    <option value="2">Solteiro</option>
+                    <option value="3">Divorciado</option>
+                    <option value="4">Viúvo</option>
+                    <option value="5">Tico-tico no fubá</option>
+                    <option value="6">Outros</option>
+                </select>
+        </div>
+    </fieldset>
+    <button type="submit">Cadastrar</button>
+</body>
+
+</html>

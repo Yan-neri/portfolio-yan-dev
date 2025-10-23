@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Exemplo 23 CSS - Sistema de Vendas</title>
+    <style>
+        .caixa {
+            font-weight: bold;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+            margin-top: 20px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-sm">
+        <h1>Exemplo 23 CSS - Sistema de Vendas</h1>
+        <div class="card caixa">
+            <div class="card-header bg-dark text-white">
+                Pedidos
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-3">
+                        <label for="">Data do Pedido</label>
+                        <input type="date" name="txtDataPedido" id="txtDataPedido" class="form-control">
+                    </div>
+                    <div class="col-9">
+                        <label for="">Funcionário</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Selecione um Funcionário</option>
+                            <option value="1">Ronaldo</option>
+                            <option value="2">Yan</option>
+                            <option value="3">Pablo</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <div class="col-9">
+                            <label for="">Cliente</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Selecione um Cliente</option>
+                                <option value="1">Ronaldo</option>
+                                <option value="2">Yan</option>
+                                <option value="3">Pablo</option>
+                            </select>
+                        </div>
+                        <div class="col-3">
+                            <label for="">Valor Total R$</label>
+                            <input type="text" name="txtValor" id="txtValor" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col-6">
+                        <button type="button" class="btn btn-dark form-control">Registrar Vendas</button>
+                    </div>
+                    <div class="col-6">
+                        <button type="button" class="btn btn-dark form-control">Listar Vendas</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
